@@ -14,7 +14,7 @@ html {
 
 body{
     background-color: #4b4b5b;
-    height: 150vh;
+    height: 250vh;
 }
 header {
     z-index: 9999;
@@ -23,7 +23,6 @@ header {
     color: #fff;
 }
 #top-header{
-    position: sticky;
     z-index: 10;
     width: 100%;
     min-height: 10vh;
@@ -35,7 +34,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
 
 #top-header > h1{
     font-size: 3em;
@@ -101,12 +99,12 @@ header {
     z-index: 18;
     width: 100%;
     height: 40px;
-    position: absolute;
     background-color: red;
+    transition-delay: 1s;
 }
 #fundoNav > ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
 }
 #fundoNav > ul>li{
@@ -145,12 +143,11 @@ header {
     cursor: pointer;
     padding-right: 5%;
 }
-#setinhaRoll{ 
+#setinhaRoll { 
+    position: fixed;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 130px;
+    display: none;
+    justify-content: center; 
 }
 #setinhaRoll > figure {
     background-color: #272727;
@@ -164,6 +161,10 @@ header {
     width: 20px;
     cursor: pointer;
     filter: invert(1);
+}
+
+.hidden {
+    transform: translateY(-100%);
 }
 
 /* main{
