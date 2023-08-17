@@ -1,6 +1,6 @@
 const url = 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=pt-BR&page=1&sort_by=popularity.desc';
 
-const imagePath = `https://image.tmdb.org/t/p/w220_and_h330_face/${backdrop_path}`
+//const imagePath = `https://image.tmdb.org/t/p/w220_and_h330_face/${backdrop_path}`
 
 const options = {
   method: 'GET',
