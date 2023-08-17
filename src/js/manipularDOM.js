@@ -1,5 +1,3 @@
-const headerBottom = document.getElementById('bottom-header').addEventListener('mouseover', () =>{
-    const divFundo = document.getElementById('fundoNav')
-        //divFundo.classList.add('descer')
-    })
+const arrow = document.querySelector('#setinhaRoll')
+const bottomHeader = document.querySelector('#bottom-header')
 

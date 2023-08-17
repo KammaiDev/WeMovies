@@ -97,41 +97,25 @@ header {
     filter: invert(1)
 }
 
-#fundoNav{/* JOGAR A CLASSE AQUI*/
-    z-index: 7;
+#fundoNav {/* JOGAR A CLASSE AQUI*/
+    z-index: 18;
     width: 100%;
     height: 40px;
     position: absolute;
-    top: 0px;
-    background-color:green;
+    background-color: red;
 }
-#fundoNav > nav >ul{
+#fundoNav > ul{
     display: flex;
     justify-content: center;
     list-style: none;
 }
-#fundoNav > nav >ul>li{
+#fundoNav > ul>li{
     padding: 0% 5% 0% 5%;
+}
 
-}
-.descer{
-    animation: descerFundoNav 300ms forwards linear;
-}
-@keyframes descerFundoNav {
-    from{
-        top: -40px;
-    }
-    to{
-        top: 0px;
-    }
-}
 #bottom-header{
     display: flex;
-    align-items: end;
     justify-content: center;
-    background-color: yellow;
-    position: relative;
-    
 }
 #bottom-header > nav {
     z-index: 7;
@@ -146,20 +130,7 @@ header {
     color: white;
     display: grid;
     place-items: center;
-    
 }
-#bottom-header > nav:hover{
-    animation: derrubarNav 300ms forwards linear;
-}
-@keyframes derrubarNav {
-    from{
-        top: -20px;
-    }
-    to{
-        top: 0px;
-    }
-}
-
 
 #bottom-header > nav > ul {
     list-style: none;
@@ -174,15 +145,12 @@ header {
     cursor: pointer;
     padding-right: 5%;
 }
-#setinhaRoll{
-    
+#setinhaRoll{ 
     width: 100%;
-    position: absolute;
-    top: 128px;
-    z-index: 23;
     display: flex;
     justify-content: center;
-
+    position: absolute;
+    top: 130px;
 }
 #setinhaRoll > figure {
     background-color: #272727;
@@ -198,21 +166,18 @@ header {
     filter: invert(1);
 }
 
-
-
-
-main{
+/* main{
     z-index: 10;
     place-content: center;
-    /*justify-content: center;*/
-
+    justify-content: center;
     height:90VH;
     display: grid;
     grid-template-columns:200px 200px 200px 200px ;
     grid-template-rows: 250px 250px;
     
-}
-.card{
+}*/
+
+/* .card{
     margin-left: 25px;
     margin-top: 15%;
     border-radius: 20px 20px 30px 30px;
@@ -220,9 +185,4 @@ main{
     width: 150px;
     height: 200px;
     background-color: darkslategray;
-}
-
-
-@media (max-width: 990px) {
-    
 }
