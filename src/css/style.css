@@ -39,7 +39,7 @@ header {
 #top-header > h1{
     font-size: 3em;
     font-family: 'Oruguitas';
-    margin-left: 120px;
+    margin-left: 190px;
 }
 #top-header > figure{
     height: 50px;
@@ -190,4 +190,9 @@ main{
     width: 150px;
     height: 200px;
     background-color: darkslategray;
+}
+
+
+@media (max-width: 990px) {
+    
 }
