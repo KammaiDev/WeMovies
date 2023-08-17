@@ -7,7 +7,7 @@ const options = {
 };
 
 
-fetch('https://api.themoviedb.org/3/movie/changes?page=1', options)
+fetch('https://api.themoviedb.org/3/tv/changes?page=1', options)
     .then(response => response.json())
     .then(response => console.log(response))
     .catch(err => console.error(err));
